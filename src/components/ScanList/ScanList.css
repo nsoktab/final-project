@@ -1,0 +1,138 @@
+.scan-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.details-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scan-details div {
+  margin: 0 10px;
+}
+
+.edit-delete-icons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.scan-list {
+  display: flex;
+  flex-direction: column;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.blue-row {
+  background-color: var(--dark-blue-75);
+  color: var(--white);
+}
+
+.line-border {
+  background-image: linear-gradient(
+    to right,
+    #faf7f7 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 12px 1px;
+  background-repeat: repeat-x;
+  border-bottom: none;
+}
+
+.line-border th {
+  padding: 15px;
+}
+
+th {
+  padding: 10px 15px;
+  text-align: left;
+  font-size: var(--body-text-small);
+  font-weight: normal;
+}
+td {
+  padding: 5px 5px;
+  text-align: left;
+  font-size: var(--body-text-small);
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+}
+.table-header img {
+  width: 10px;
+}
+
+.table-total-scans {
+  font-size: var(--body-text);
+  font-weight: normal;
+  padding: 15px 15px;
+}
+.os-logo {
+  width: 26px;
+}
+
+.scan-details td {
+  vertical-align: top;
+}
+
+tr {
+  border: 1px solid var(--grey);
+  border-top: none;
+}
+
+td {
+  align-items: center;
+}
+
+.tags-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 15px 0px 5px;
+}
+
+.pencil {
+  width: 18px;
+}
+
+.table-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.table-center-element {
+  text-align: center;
+}
+
+.edit-tags {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  border: 1px solid var(--grey);
+  font-family: var(--font);
+}
+
+.table-row-details {
+  /* Your other styles */
+  transition: transform 0.8s ease, opacity 0.5s ease;
+}
+
+.table-row-details.deleted {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.table-link {
+  color: var(--black);
+  text-decoration: none;
+}

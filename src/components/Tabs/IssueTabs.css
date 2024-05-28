@@ -1,0 +1,74 @@
+.issues-tabs {
+  width: 100%;
+}
+
+.tab-header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.tab-header h3 {
+  margin: 0;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.legend {
+  display: flex;
+  width: 40%;
+  padding: 10px 0;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.legend span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.issue {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+.issue-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.issue-dropdown {
+  width: 70%;
+  margin-right: 40px;
+}
+
+.issue-details {
+  padding: 10px 0;
+}
+
+.issue-details p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.issue-details a {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+.issue-details a:hover {
+  font-weight: bold;
+}
+
+.issues-content {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}

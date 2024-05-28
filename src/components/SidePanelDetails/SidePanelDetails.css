@@ -1,0 +1,21 @@
+.normal {
+  font-weight: normal;
+}
+
+.add-tag-container input {
+  padding: 5px;
+  font-family: var(--font);
+  background-color: var(--dark-blue);
+  border: none;
+  color: var(--white);
+  font-style: italic;
+}
+
+.save-new-tag {
+  color: var(--white);
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

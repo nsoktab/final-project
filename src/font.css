@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Verdana";
+  src: url("./fonts/verdana-bold.ttf") format("ttf"),
+    url("./fonts/verdana-italic.ttf") format("ttf"),
+    url("./fonts/verdana-bold-italic.ttf") format("ttf"),
+    url("./fonts/verdana.ttf") format("ttf");
+  /* Add additional font properties (e.g., font-weight, font-style) if needed */
+}

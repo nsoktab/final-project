@@ -1,0 +1,79 @@
+.side-panel {
+  width: 20%;
+  background-color: var(--dark-blue);
+  color: white;
+  padding: 20px;
+  font-family: var(--font);
+  height: 700px;
+}
+.side-panel h2 {
+  font-size: 20px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.level-container {
+  margin-bottom: 10px;
+}
+
+.level {
+  display: flex;
+}
+
+.level-bar {
+  height: 30px;
+}
+
+.level-a {
+  background-color: var(--red);
+  flex: 1;
+}
+
+.level-b {
+  background-color: var(--yellow);
+  flex: 1;
+}
+
+.level-c {
+  background-color: var(--green);
+  flex: 1;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.last-scan {
+  margin-top: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed white;
+  margin: 20px 0;
+}
+
+.pinned-issues {
+  min-height: 80px;
+  max-height: 100px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.pinned-issues p {
+  display: flex;
+  align-items: center;
+}
+
+.pin {
+  width: 20px;
+  margin-right: 5px;
+}
+
+.notes {
+  height: 150px;
+  background-color: white;
+  color: black;
+  margin-top: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,27 @@
+.scan-overview-content {
+  padding: 20px;
+  display: flex;
+}
+.tabs-section {
+  width: 100%;
+  margin-left: 2em;
+}
+
+.section-headers {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section-headers h2 {
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: normal;
+  padding: 0px 0px 5px 0px;
+}
+
+.section-headers h2.active {
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}

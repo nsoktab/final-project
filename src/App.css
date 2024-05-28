@@ -1,0 +1,98 @@
+@import "./font.css";
+
+:root {
+  --dark-blue: #29335c;
+  --dark-blue-75: #383f5e;
+  --light-blue: #669bbc;
+  --light-blue-50: #adc7d8;
+  --black: #0b0000;
+  --white: #faf7f7;
+  --grey: #c4c2c2;
+  --yellow: #f8f866;
+  --green: #a8c686;
+  --red: #d73a0c;
+  --light-red: #e99982;
+  --orange: #f3a712;
+  --font: "Verdana";
+  --body-text: 16px;
+  --body-text-small: 14px;
+  --body-text-large: 18px;
+  --h2: 24px;
+  --h1: 28px;
+}
+
+.body_text {
+  font-family: var(--font);
+  font-size: var(--body-text);
+  color: var(--black);
+}
+
+.body_text_small {
+  font-family: var(--font);
+  font-size: var(--body-text-small);
+  color: var(--black);
+}
+
+.body_text_large {
+  font-family: var(--font);
+  font-size: var(--body-text-large);
+  color: var(--black);
+}
+
+h2 {
+  font-family: var(--font);
+  font-size: var(--h2);
+  color: var(--black);
+  font-weight: bold;
+}
+
+h1 {
+  font-family: var(--font);
+  font-size: var(--h1);
+  color: var(--black);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: var(--font);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+html {
+  background-color: var(--white);
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+  font-family: var(--font);
+  margin: 0px 24px;
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    margin: 0px 120px;
+  }
+}
+
+.small-screens-message {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-blue);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  z-index: 1000; /* High z-index to overlay other content */
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 999px) {
+  .small-screens-message {
+    display: flex; /* Show on small screens */
+  }
+}

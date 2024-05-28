@@ -1,0 +1,10 @@
+.page-overview-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.list-content {
+  width: 80%;
+  margin-left: 5%;
+}

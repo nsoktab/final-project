@@ -1,0 +1,33 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.delete-btns-container {
+  padding-top: 24px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.close-container {
+  display: flex;
+  width: 110%;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
